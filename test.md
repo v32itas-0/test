@@ -244,3 +244,20 @@ You begin with a root user
 		# Define mirrors (uncomment one or more mirror; remember to add it to REPOPLUS)
 		# GPG Note: after adding/renaming a repository, you must to run 'slackpkg update gpg'
 		#           some repositories as salixos, have a partial GPG support;
+5. Updating GPG and Package list for slackpkg+
+
+		/usr/sbin/slackpkg update gpg && /usr/sbin/slackpkg update
+
+### Downloading and Installing sbotools
+
+1. Downloading sbotools package:
+
+		/usr/bin/wget https://pink-mist.github.io/sbotools/downloads/sbotools-2.7-noarch-1_SBo.tgz
+
+2. Installing sbotools package:
+
+		/sbin/installpkg /sbin/installpkg sbotools-2.7-noarch-1_SBo.tgz
+
+3. Running `sbosnap fetch` to get slackbuilds list
+
+		/usr/sbin/sbosnap fetch
