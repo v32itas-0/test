@@ -28,12 +28,6 @@ L2J is a free open-source Lineage 2 server emulator fully written in Java releas
 You only need a fresh Slackware64 14.2 Linode to begin with this guide.
 
 
-{{< note >}}
-Command-line commands, beginning with # are meant for root user and $ for non-root user.
-{{< /note >}}
-{{< note >}}
-These commands are meant for root user.
-{{< /note >}}
 ## Setting up fresh Slackware64 14.2 Linode
 {{< note >}}
 You begin with a root user
