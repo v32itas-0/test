@@ -255,3 +255,5 @@ You begin with a root user
 3. Running `sbosnap fetch` to get slackbuilds list
 
 		/usr/sbin/sbosnap fetch
+
+## To be continued...
