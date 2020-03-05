@@ -1,4 +1,3 @@
-
 ---
 author:
   name: Linode Community
@@ -15,7 +14,6 @@ contributor:
   link: Github/Twitter/LinkedIn URL
 external_resources:
   - '[L2J Server official site](https://l2jserver.com/)'
-  
 ---
 
 
